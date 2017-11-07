@@ -1,0 +1,8 @@
+# node/react-native stuff
+node_modules/
+.expo/
+npm-debug.*
+
+# vim stuff
+*~
+.*.sw*
