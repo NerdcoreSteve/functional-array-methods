@@ -173,11 +173,11 @@ console.log(
         .filter(result => result)
         .map(result => result.occupation)
         .reduce(
-                (counts, occupation) =>
-                    counts[occupation]
-                        ? set(counts, occupation, counts[occupation] + 1)
-                        : set(counts, occupation, 1),
-                {}))
+            (counts, occupation) =>
+                counts[occupation]
+                    ? set(counts, occupation, counts[occupation] + 1)
+                    : set(counts, occupation, 1),
+            {}))
 /*
 prints
 { 'space whale cleaner': 2,
